@@ -1,0 +1,10 @@
+TrackLine 1.0
+TrackTurnLeft 45.0
+TrackLine 1.0
+TrackTurnRight 90.0
+TrackLine 1.0
+TrackTurnRight 45.0
+TrackArcRight 180.0 0.7
+TrackTurnLeft 90.0
+TrackLine 1.0
+Start

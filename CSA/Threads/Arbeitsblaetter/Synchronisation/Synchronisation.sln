@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockingConstruct1", "LockingConstruct1\LockingConstruct1.csproj", "{E4492BE7-4338-4D1B-84F3-2E6FDEC07AAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockingConstruct2", "LockingConstruct2\LockingConstruct2.csproj", "{742E1B8D-5AA4-411F-8E87-4B7FEA99DB9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutexConstruct", "MutexConstruct\MutexConstruct.csproj", "{5B4E4C0D-4A8E-483F-B999-0CE52EF9E4C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemaConstruct", "SemaConstruct\SemaConstruct.csproj", "{4227A4DB-7C1A-4865-A07A-A9F09B73C082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleBlocking", "SimpleBlocking\SimpleBlocking.csproj", "{5521F83C-A891-4C08-85EA-5D5BDACBF3EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitAndPulse", "WaitAndPulse\WaitAndPulse.csproj", "{0F73198F-62EC-4E2F-9BB2-4B9F3608173D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitHandles", "WaitHandles\WaitHandles.csproj", "{7D63FFFA-AE8B-442E-A2F1-7383E20BD543}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4492BE7-4338-4D1B-84F3-2E6FDEC07AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4492BE7-4338-4D1B-84F3-2E6FDEC07AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4492BE7-4338-4D1B-84F3-2E6FDEC07AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4492BE7-4338-4D1B-84F3-2E6FDEC07AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{742E1B8D-5AA4-411F-8E87-4B7FEA99DB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{742E1B8D-5AA4-411F-8E87-4B7FEA99DB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{742E1B8D-5AA4-411F-8E87-4B7FEA99DB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{742E1B8D-5AA4-411F-8E87-4B7FEA99DB9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B4E4C0D-4A8E-483F-B999-0CE52EF9E4C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B4E4C0D-4A8E-483F-B999-0CE52EF9E4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B4E4C0D-4A8E-483F-B999-0CE52EF9E4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B4E4C0D-4A8E-483F-B999-0CE52EF9E4C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4227A4DB-7C1A-4865-A07A-A9F09B73C082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4227A4DB-7C1A-4865-A07A-A9F09B73C082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4227A4DB-7C1A-4865-A07A-A9F09B73C082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4227A4DB-7C1A-4865-A07A-A9F09B73C082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5521F83C-A891-4C08-85EA-5D5BDACBF3EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5521F83C-A891-4C08-85EA-5D5BDACBF3EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5521F83C-A891-4C08-85EA-5D5BDACBF3EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5521F83C-A891-4C08-85EA-5D5BDACBF3EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F73198F-62EC-4E2F-9BB2-4B9F3608173D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F73198F-62EC-4E2F-9BB2-4B9F3608173D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F73198F-62EC-4E2F-9BB2-4B9F3608173D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F73198F-62EC-4E2F-9BB2-4B9F3608173D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D63FFFA-AE8B-442E-A2F1-7383E20BD543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D63FFFA-AE8B-442E-A2F1-7383E20BD543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D63FFFA-AE8B-442E-A2F1-7383E20BD543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D63FFFA-AE8B-442E-A2F1-7383E20BD543}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
